@@ -1,0 +1,25 @@
+@media screen and (max-width: 480px) {
+
+    .ant-btn-default {
+        background-color: #ffffff;
+        border-color: #d9d9d9;
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+        text-align: initial;
+        /* padding-left: 55px; */
+    }
+
+    .DoB-Modal{
+        padding-left: 55px; 
+    }
+
+    .Gender-Button{
+        padding-left: 55px; 
+    }
+
+    ant-btn {
+        font-size: 14px;
+        height: 32px;
+        padding: 4px 15px;
+        /* border-radius: 6px;*/
+    }
+}
