@@ -1,0 +1,20 @@
+@media screen and (max-width: 480px) {
+
+    .ant-btn css-dev-only-do-not-override-w8mnev ant-btn-primary SideMenu-Hamburger-Button{
+        margin-top: 10px;
+        margin-left: -170px;
+        margin-left: 0px;
+    }
+
+    .ant-col ant-col-8 Navigtion-side-menu css-dev-only-do-not-override-w8mnev .div{
+        width:0em;
+    }
+
+    .div{
+        font-family: monospace;
+    }
+
+    .ant-menu-title-content{
+        font-family: Georgia, 'Times New Roman';
+    }
+}
