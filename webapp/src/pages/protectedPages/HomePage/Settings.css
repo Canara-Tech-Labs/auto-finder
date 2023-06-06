@@ -1,0 +1,53 @@
+@media screen and (max-width: 480px) {
+    .Settings-Section{
+        font-family: 'Poppins','Roboto';
+        background-color: #f5f5f5;
+    }
+
+
+    .Settings-Section-Top-Layout{
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        background-color: #0f0f0f;
+    }
+
+    .Settings-Section-Top-Layout-Exit{
+        display: flex;
+    }
+
+    .Settings-Section-Top-Layout-Subsection{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 10px;
+        align-items: center;
+
+    }
+
+    .Top-Layout-Subsection-Title{
+        margin-left: 20px;
+        color: #f5f5f5;
+        font-family: 'Roboto';
+        
+    }
+
+    .Setting-Section-Option-Lists{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .Option-Buttons{
+        border-radius: 0px;
+        height: max-content;
+        text-align: left;
+        width: 100%;
+    }
+
+    .ul .Option-Buttonss-Heading{
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
