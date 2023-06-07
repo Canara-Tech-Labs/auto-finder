@@ -1,0 +1,111 @@
+@media screen and (max-width:425px) {
+  .frontpage-box {
+    display: flex;
+    width: 425px;
+    flex-direction: column;
+    /* background-color: blue; */
+    height: 350px;
+  }
+
+  .frontpage-box1 {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000;
+    background-color: #f2f2f2;
+  }
+
+  .frontpage-butn-box1,
+  .frontpage-butn-box2 {
+    flex: 1;
+    border: 1px solid #000;
+    margin: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+  }
+
+  .frontpage-butn-box1 {
+    margin-right: 50px;
+  }
+
+  .frontpage-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .frontpage-butn-box1:hover,
+  .butn-box2:hover {
+    background-color: #999;
+    color: #fff;
+  }
+
+  .frontpage-box2 {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000;
+    background-color: #f2f2f2;
+  }
+
+  .frontpage-butn-box3 {
+    flex: 1;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+  }
+
+  .frontpage-butn-box4 {
+    flex: 1;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+  }
+
+  .frontpage-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .frontpage-butn-box1,
+  .frontpage-butn-box2,
+  .frontpage-butn-box3,
+  .frontpage-butn-box4 {
+    background-color: #e7e7e7;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    transition: border 0.3s ease;
+  }
+
+  .frontpage-butn-box1:hover,
+  .frontpage-butn-box2:hover,
+  .frontpage-butn-box3:hover,
+  .frontpage-butn-box4:hover {
+    border: 2px solid #999;
+  }
+
+
+
+}
