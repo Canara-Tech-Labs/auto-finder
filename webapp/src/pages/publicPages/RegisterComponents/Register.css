@@ -1,0 +1,153 @@
+.form{
+    margin-top: 100px;
+    margin-left: 500px;
+    height: 600px;
+    width: 420px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    border-radius: 1px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0.188em 1.550em rgb(156,156,156);
+    border-radius: 4px;
+}
+
+.form .name{
+    display: flex;
+    font-weight: bold;
+}
+
+.form .name .name1{
+    display: flex;
+    background-color: rgb(218, 217, 217);
+    margin-left: 10px;
+    border-color:  rgb(218, 217, 217);
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.name ::placeholder{
+    color: black;
+}
+
+.form .name-1{
+    display: flex;
+    font-weight: bold;
+}
+
+.form .name-1 .name2{
+    display: flex;
+    background-color: rgb(218, 217, 217);
+    margin-left: 10px;
+    border-color:  rgb(218, 217, 217);
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.name-1 ::placeholder{
+    color: black;
+}
+
+
+.form .email{
+    display: flex;
+    font-weight: bold;
+}
+
+.form .email .email1{
+    display: flex;
+    background-color: rgb(218, 217, 217);
+    margin-left: 45px;
+    border-color:  rgb(218, 217, 217);
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.email ::placeholder{
+    color: black;
+}
+
+
+.form .state{
+    display: flex;
+    font-weight: bold;
+}
+
+.form .state .state1{
+    display: flex;
+    background-color: rgb(218, 217, 217);
+    margin-left: 45px;
+    border-color:  rgb(218, 217, 217);
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.state ::placeholder{
+    color: black;
+}
+
+.form .password{
+    display: flex;
+    font-weight: bold;
+}
+
+.form .password .password1{
+    display: flex;
+    background-color: rgb(218, 217, 217);
+    margin-left: 10px;
+    border-color:  rgb(218, 217, 217);
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.password ::placeholder{
+    color: black;
+}
+
+.form .confirm-password{
+    display: flex;
+    font-weight: bold;
+}
+
+.form .confirm-password .confirm{
+    display: flex;
+    background-color: rgb(218, 217, 217);
+    margin-left: 03px;
+    border-color:  rgb(218, 217, 217);
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.confirm-password ::placeholder{
+    color: black;
+}
+
+.form .submit{
+    display: flex;
+}
+
+.form .submit .sub{
+    background-color: rgb(17, 128, 13);
+    height: 30px;
+    width: 80px;
+    border-radius: 4px;
+    border-color: rgb(17, 128, 13) ;
+}
+
+.error{
+    color: rgb(255, 0, 0);
+}
