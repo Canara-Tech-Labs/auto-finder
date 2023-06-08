@@ -23,20 +23,61 @@ export default function HistorySection(){
                         <span>25 May 2023</span>
                     </div>
                     <div className="History-Section-Notification-headings">
-                        <Button >Msg1</Button>
-                        <Button >Msg2</Button>
-                        <Button >Msg3</Button>
-                        <Button >Msg4</Button>
+                    <Button className="Messages">
+                            <div className="Messages-main-heading-time">
+                                <p className="Messages-heading">New Message</p>
+                            <p className="Messages-time">3:00 pm</p></div>
+                            <p className="Messages-description">Your Journey Recap: Trip History Details Inside</p>
+                        </Button>
+                        <Button className="Messages">
+                            <div className="Messages-main-heading-time">
+                                <p className="Messages-heading">New Message</p>
+                            <p className="Messages-time">3:00 pm</p></div>
+                            <p className="Messages-description">Your Trip History: Explore Your Past Rides"</p>
+                        </Button>
+                        <Button className="Messages">
+                            <div className="Messages-main-heading-time">
+                                <p className="Messages-heading">New Message</p>
+                            <p className="Messages-time">3:00 pm</p></div>
+                            <p className="Messages-description">Recap: Review Your Recent Trips and Fares</p>
+
+                        </Button>
                     </div>
 
                     <div className="History-Section--Body-Date">
                         <span>24 May 2023</span>
                     </div>
                     <div className="History-Section-Notification-headings">
-                        <Button >Msg1</Button>
-                        <Button >Msg2</Button>
-                        <Button >Msg3</Button>
-                        <Button >Msg4</Button>
+                       <Button className="Messages">
+                            <div className="Messages-main-heading-time">
+                                <p className="Messages-heading">New Message</p>
+                            <p className="Messages-time">3:00 pm</p></div>
+                            <p className="Messages-description">Recap: Review Your Recent Trips and Fares</p>
+                        </Button>
+                        <Button className="Messages">
+                            <div className="Messages-main-heading-time">
+                                <p className="Messages-heading">New Message</p>
+                            <p className="Messages-time">3:00 pm</p></div>
+                            <p className="Messages-description">Your Journey Recap: Trip History Details Inside</p>
+                        </Button>
+                        <Button className="Messages">
+                            <div className="Messages-main-heading-time">
+                                <p className="Messages-heading">New Message</p>
+                            <p className="Messages-time">3:00 pm</p></div>
+                            <p className="Messages-description">Your Trip History: Explore Your Past Rides</p>
+                        </Button>
+                        <Button className="Messages">
+                            <div className="Messages-main-heading-time">
+                                <p className="Messages-heading">New Message</p>
+                            <p className="Messages-time">3:00 pm</p></div>
+                            <p className="Messages-description">Your Journey Recap: Trip History Details Inside</p>
+                        </Button>
+                        <Button className="Messages">
+                            <div className="Messages-main-heading-time">
+                                <p className="Messages-heading">New Message</p>
+                            <p className="Messages-time">3:00 pm</p></div>
+                            <p className="Messages-description">Your Trip History: Explore Your Past Rides</p>
+                        </Button>
                     </div>
                     
 

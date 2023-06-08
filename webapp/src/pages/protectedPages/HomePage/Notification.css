@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) { */
     /* .Notification-Section{
         background-color: ;
     } */
@@ -40,11 +40,42 @@
     .Notification-Section-Notification-headings{
         display: flex;
         flex-direction: column;
+        row-gap: 5px;
+    }
+
+    .Notification-Section-Body-Date{
+
     }
 
     .Notification-Section-Notification-headings .Messages{
         border-radius: 0px;
         border-color: none;
         border-top: grey;
+        height: max-content;
+        
+
     }
-}
+
+    .Messages-main-heading-time{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Messages-heading{
+        margin:0px;
+        text-align: left;
+        width: fit-content;
+
+    }
+
+    .Messages-time{
+        margin:0px;
+        float: end;
+    }
+
+    .Messages-description{
+        margin:0px;
+        text-align: left;
+    }
+
+/* } */
