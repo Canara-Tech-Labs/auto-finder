@@ -1,4 +1,12 @@
 
+<<<<<<< HEAD
+  div{
+    background-color: #ffffff;
+    margin-top: 15px;
+  }
+  
+  .form {
+=======
   .register{
     background-color: #ffffff;
     margin-top: 60px;
@@ -6,10 +14,22 @@
   }
   
   .register .form {
+>>>>>>> c89ee948fbbdf9775b95a5637b384e26219d5eff
     width: 70%;
     max-width: 400px;
     margin: 0 auto;
     padding: 10px;
+<<<<<<< HEAD
+  }
+  
+  .text1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text2 {
+=======
     /* margin-top: 100px; */
   }
   
@@ -25,10 +45,29 @@
   }
   
   .register .form .text2 {
+>>>>>>> c89ee948fbbdf9775b95a5637b384e26219d5eff
     font-size: 10px;
     margin-bottom: 20px;
     /* font-style: italic; */
     color: #003453;
+<<<<<<< HEAD
+  }
+  
+  .name1,
+  .name2,
+  .email1,
+  .password1,
+  .confirm {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: #fff;
+    background-color: #efecec;
+  }
+  
+  .sub {
+=======
     margin-left: 5px;
   }
   
@@ -52,6 +91,7 @@
   }
   
   .register .form .sub {
+>>>>>>> c89ee948fbbdf9775b95a5637b384e26219d5eff
     display: block;
     width: 100%;
     padding: 10px;
@@ -60,6 +100,18 @@
     color: #fff;
     border: none;
     cursor: pointer;
+<<<<<<< HEAD
+    margin-left: 12px;
+    border-radius: 5px;
+  }
+  
+  @media screen and (max-width: 425px) {
+    .form {
+      max-width: 100%;
+    }
+  
+    .text1 {
+=======
     margin-left: 5px;
     border-radius: 5px;
     margin-top: 20px;
@@ -71,10 +123,26 @@
     }
   
     .register .form .text1 {
+>>>>>>> c89ee948fbbdf9775b95a5637b384e26219d5eff
       font-size: 20px;
       margin-left: 15px;
     }
   
+<<<<<<< HEAD
+    .text2 {
+      font-size: 10px;
+    }
+  
+    .name1,
+    .name2,
+    .email1,
+    .password1,
+    .confirm {
+      font-size: 14px;
+    }
+  
+    .sub {
+=======
     .register .form .text2 {
       font-size: 10px;
     }
@@ -88,6 +156,7 @@
     }
   
     .register .form .sub {
+>>>>>>> c89ee948fbbdf9775b95a5637b384e26219d5eff
       font-size: 14px;
     }
 

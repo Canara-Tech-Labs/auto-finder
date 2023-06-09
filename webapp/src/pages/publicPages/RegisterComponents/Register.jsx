@@ -94,8 +94,8 @@ function Register () {
     <div className='register'>
       <div className='form'>
         <div className='text'>
-            <div className='text1'>Welcome to the Autoservice</div>
-            <div className='text2'>Let's get your all set up, so you can being tomake your first service</div>
+            <div className='text1'>REGISTRATION</div>
+            <div className='text2'>Enter your personal data</div>
       
         </div>
 
@@ -157,7 +157,7 @@ function Register () {
             Confirm Password
         <input type="text"
         name='confirmpassword'
-         placeholder='confirm Password'
+         placeholder='Confirm Password'
          className='confirm'
          value={input.confirmpassword} 
         onChange={onInputChange} 
